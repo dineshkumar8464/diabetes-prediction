@@ -1,0 +1,45 @@
+# Ignore virtual environments
+.venv/
+venv/
+ENV/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore model and scaler files
+*.pkl
+*.joblib
+
+# Ignore temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore image and clip files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore Streamlit cache
+.streamlit/
+
+# Ignore exported files
+*.csv  # Optional: only if dataset shouldn't be public
+*.xlsx
+*.json
+
+# Ignore PowerShell or other environment junk
+*.ps1
